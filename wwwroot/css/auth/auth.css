@@ -1,0 +1,23 @@
+@import url(./__title/auth__title.css);
+@import url(./__form/auth__form.css);
+@import url(./__input/auth__input.css);
+@import url(./__button/auth__button.css);
+
+.auth {
+    position: absolute;
+    width: 40%;
+    min-width: 350px;
+    aspect-ratio: 1 / 1;
+    top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+    background-color: #333030;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}

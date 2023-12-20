@@ -1,0 +1,16 @@
+﻿@using ReservationApp.Models
+@model HotelAddViewModel
+
+<section class="auth">
+    <h1 class="auth__title">Добавление отеля</h1>
+    <p class="error__title" id="error"></p>
+    <form method="post" asp-action="Order" asp-controller="Hotel">
+        <div class="auth__form">
+            <input class="auth__input" type="text" asp-for="Title" />
+            <textarea style="width:400px" rows="6" class="review-text" asp-for="Description"></textarea>
+            @Html.DropDownListFor(x => x.SelectedRegion, Model.Regions, new { style = "width:400px; text-align:center" })
+            @Html.ListBoxFor(x => x.SelectedTags, Model.Tags, new { style = "width:400px; text-align:center" })
+            <button type="submit" class="auth__button">Добавить</button>
+        </div>
+    </form>
+</section>

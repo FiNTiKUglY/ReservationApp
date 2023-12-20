@@ -1,0 +1,15 @@
+@import url(./__bar/player__bar.css);
+@import url(./__controls/player__controls.css);
+@import url(./__time/player__time.css);
+@import url(./__track/player__track.css);
+@import url(./__volume/player__volume.css);
+
+.footer {
+    width: 100%;
+    height: 60px;
+    background-color: #333030;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+}

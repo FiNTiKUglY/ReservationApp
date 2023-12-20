@@ -1,0 +1,15 @@
+@using ReservationApp.Models
+@model LoginViewModel
+
+<section class="auth">
+    <h1 class="auth__title">Вход</h1>
+    <p class="error__title" id="error"></p>
+    <form method="post" asp-action="Login" asp-controller="Identity">
+        <div class="auth__form">
+            <input class="auth__input" type="text" placeholder="Логин" id="user_email" aria-required="true" asp-for="Email">
+            <input class="auth__input" type="password" placeholder="Пароль" id="user_password" aria-required="true" asp-for="Password">
+
+            <button type="submit" class="auth__button">Вход</button>
+        </div>
+    </form>
+</section>

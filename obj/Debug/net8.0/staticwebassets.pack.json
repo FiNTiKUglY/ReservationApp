@@ -1,0 +1,501 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ReservationApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ReservationApp.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\css\\auth\\__button\\auth__button.css",
+      "PackagePath": "staticwebassets\\css\\auth\\__button\\auth__button.css"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\css\\auth\\__form\\auth__form.css",
+      "PackagePath": "staticwebassets\\css\\auth\\__form\\auth__form.css"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\css\\auth\\__input\\auth__input.css",
+      "PackagePath": "staticwebassets\\css\\auth\\__input\\auth__input.css"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\css\\auth\\__title\\auth__title.css",
+      "PackagePath": "staticwebassets\\css\\auth\\__title\\auth__title.css"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\css\\auth\\auth.css",
+      "PackagePath": "staticwebassets\\css\\auth\\auth.css"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\css\\card\\__container\\card__container.css",
+      "PackagePath": "staticwebassets\\css\\card\\__container\\card__container.css"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\css\\card\\__img\\card__img.css",
+      "PackagePath": "staticwebassets\\css\\card\\__img\\card__img.css"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\css\\card\\__title\\card__title.css",
+      "PackagePath": "staticwebassets\\css\\card\\__title\\card__title.css"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\css\\card\\card.css",
+      "PackagePath": "staticwebassets\\css\\card\\card.css"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\css\\footer\\__bar\\player__bar.css",
+      "PackagePath": "staticwebassets\\css\\footer\\__bar\\player__bar.css"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\css\\footer\\__controls\\__buttons\\player__buttons.css",
+      "PackagePath": "staticwebassets\\css\\footer\\__controls\\__buttons\\player__buttons.css"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\css\\footer\\__controls\\player__controls.css",
+      "PackagePath": "staticwebassets\\css\\footer\\__controls\\player__controls.css"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\css\\footer\\__time\\player__time.css",
+      "PackagePath": "staticwebassets\\css\\footer\\__time\\player__time.css"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\css\\footer\\__track\\__description\\__title\\player__track__description__title.css",
+      "PackagePath": "staticwebassets\\css\\footer\\__track\\__description\\__title\\player__track__description__title.css"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\css\\footer\\__track\\__description\\player__track__descriptions.css",
+      "PackagePath": "staticwebassets\\css\\footer\\__track\\__description\\player__track__descriptions.css"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\css\\footer\\__track\\__img\\player__track__img.css",
+      "PackagePath": "staticwebassets\\css\\footer\\__track\\__img\\player__track__img.css"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\css\\footer\\__track\\player__track.css",
+      "PackagePath": "staticwebassets\\css\\footer\\__track\\player__track.css"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\css\\footer\\__volume\\player__volume.css",
+      "PackagePath": "staticwebassets\\css\\footer\\__volume\\player__volume.css"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\css\\footer\\footer.css",
+      "PackagePath": "staticwebassets\\css\\footer\\footer.css"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\css\\general.css",
+      "PackagePath": "staticwebassets\\css\\general.css"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\css\\hotel\\hotel.css",
+      "PackagePath": "staticwebassets\\css\\hotel\\hotel.css"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\css\\icon\\icon.css",
+      "PackagePath": "staticwebassets\\css\\icon\\icon.css"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\css\\menu\\nav-menu.css",
+      "PackagePath": "staticwebassets\\css\\menu\\nav-menu.css"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\css\\page-content\\album\\__head\\album-head.css",
+      "PackagePath": "staticwebassets\\css\\page-content\\album\\__head\\album-head.css"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\css\\page-content\\album\\__tracks\\album__tracks.css",
+      "PackagePath": "staticwebassets\\css\\page-content\\album\\__tracks\\album__tracks.css"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\css\\page-content\\album\\album.css",
+      "PackagePath": "staticwebassets\\css\\page-content\\album\\album.css"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\css\\page-content\\find\\find.css",
+      "PackagePath": "staticwebassets\\css\\page-content\\find\\find.css"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\css\\page-content\\page-content.css",
+      "PackagePath": "staticwebassets\\css\\page-content\\page-content.css"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\css\\track\\__card\\track__card.css",
+      "PackagePath": "staticwebassets\\css\\track\\__card\\track__card.css"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\css\\track\\__container\\track__container.css",
+      "PackagePath": "staticwebassets\\css\\track\\__container\\track__container.css"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\css\\track\\__description\\track__description.css",
+      "PackagePath": "staticwebassets\\css\\track\\__description\\track__description.css"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\css\\track\\__img\\track__img.css",
+      "PackagePath": "staticwebassets\\css\\track\\__img\\track__img.css"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\css\\track\\__title\\track__title.css",
+      "PackagePath": "staticwebassets\\css\\track\\__title\\track__title.css"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\css\\track\\track.css",
+      "PackagePath": "staticwebassets\\css\\track\\track.css"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\img\\Alien.png",
+      "PackagePath": "staticwebassets\\img\\Alien.png"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\img\\Saluki.png",
+      "PackagePath": "staticwebassets\\img\\Saluki.png"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\img\\Vacations.png",
+      "PackagePath": "staticwebassets\\img\\Vacations.png"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\img\\Vundabar.png",
+      "PackagePath": "staticwebassets\\img\\Vundabar.png"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\img\\WILD EAST.png",
+      "PackagePath": "staticwebassets\\img\\WILD EAST.png"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\img\\Young.png",
+      "PackagePath": "staticwebassets\\img\\Young.png"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\img\\close.svg",
+      "PackagePath": "staticwebassets\\img\\close.svg"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\img\\favourite.png",
+      "PackagePath": "staticwebassets\\img\\favourite.png"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\img\\heart-fill.svg",
+      "PackagePath": "staticwebassets\\img\\heart-fill.svg"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\img\\heart.svg",
+      "PackagePath": "staticwebassets\\img\\heart.svg"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\img\\home.svg",
+      "PackagePath": "staticwebassets\\img\\home.svg"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\img\\menu.svg",
+      "PackagePath": "staticwebassets\\img\\menu.svg"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\img\\next.svg",
+      "PackagePath": "staticwebassets\\img\\next.svg"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\img\\order-menu.svg",
+      "PackagePath": "staticwebassets\\img\\order-menu.svg"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\img\\pause.svg",
+      "PackagePath": "staticwebassets\\img\\pause.svg"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\img\\play.svg",
+      "PackagePath": "staticwebassets\\img\\play.svg"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\img\\prev.svg",
+      "PackagePath": "staticwebassets\\img\\prev.svg"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\img\\profile-2.svg",
+      "PackagePath": "staticwebassets\\img\\profile-2.svg"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\img\\profile.svg",
+      "PackagePath": "staticwebassets\\img\\profile.svg"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\img\\repeat.svg",
+      "PackagePath": "staticwebassets\\img\\repeat.svg"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\img\\shuffle.svg",
+      "PackagePath": "staticwebassets\\img\\shuffle.svg"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\img\\sound-mute.svg",
+      "PackagePath": "staticwebassets\\img\\sound-mute.svg"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\img\\test-img.png",
+      "PackagePath": "staticwebassets\\img\\test-img.png"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\img\\Папин Олимпос.png",
+      "PackagePath": "staticwebassets\\img\\Папин Олимпос.png"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\img\\Телу тоже больно.png",
+      "PackagePath": "staticwebassets\\img\\Телу тоже больно.png"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\img\\Улицы Дома.png",
+      "PackagePath": "staticwebassets\\img\\Улицы Дома.png"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Labs\\TRPO\\ReservationApp\\ReservationApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ReservationApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ReservationApp.props",
+      "PackagePath": "build\\ReservationApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ReservationApp.props",
+      "PackagePath": "buildMultiTargeting\\ReservationApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ReservationApp.props",
+      "PackagePath": "buildTransitive\\ReservationApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

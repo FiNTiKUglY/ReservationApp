@@ -1,0 +1,21 @@
+@using ReservationApp.Entities
+@using ReservationApp.Models
+@model List<Hotel>
+
+
+<ul class="find__hotel__list">
+	@foreach (var hotel in Model)
+	{
+		<a class="find__hotel find__hotel-common" asp-action="Edit" asp-route-id="@hotel.Id">
+			<div class="find__hotel__img"></div>
+			<div class="find__hotel__info">
+				<span class="find__hotel__info__title">@hotel.Title</span>
+				<span class="find__hotel__info__region">@hotel.Region.City, @hotel.Region.Country</span>
+				<p class="find__hotel__info__description">@hotel.Description</p>
+			</div>
+		</a>
+	}
+	<a class="hotel__order__button" asp-action="Add">Добавить</a>
+</ul>
+
+

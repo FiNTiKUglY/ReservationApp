@@ -1,0 +1,21 @@
+@media screen and (min-width: 900px) {
+    .auth__title {
+        color: white;
+        font-size: 3.7rem;
+        margin-bottom: 7%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .auth__title {
+        color: white;
+        font-size: 3rem;
+        margin-bottom: 7%;
+    }
+}
+
+.error__title {
+    color: red;
+    margin-bottom: 2%;
+}
+

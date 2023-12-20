@@ -1,0 +1,13 @@
+@import url(./__img/player__track__img.css);
+@import url(./__description/player__track__descriptions.css);
+
+.player__track {
+    width: 15%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}

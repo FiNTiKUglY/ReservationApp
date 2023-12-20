@@ -1,0 +1,16 @@
+﻿@using ReservationApp.Models
+@model OrderViewModel
+
+<section class="auth">
+    <h1 class="auth__title">Бронирование</h1>
+    <p class="error__title" id="error"></p>
+    <form method="post" asp-action="Order" asp-controller="Hotel">
+        <div class="auth__form">
+            @Html.DropDownListFor(x => x.SelectedRoom, Model.Rooms, new { style = "width:400px; text-align:center" })
+            @Html.ListBoxFor(x => x.SelectedServices, Model.Services, new { style = "width:400px; text-align:center" })
+            <input class="form-control" asp-for="BeginDateTime" style="width:400px; text-align:center" />
+            <input class="form-control" asp-for="EndDateTime" style="width:400px; text-align:center" />
+            <button type="submit" class="auth__button">Забронировать</button>
+        </div>
+    </form>
+</section>

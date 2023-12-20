@@ -1,0 +1,91 @@
+.menu__link {
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+
+.menu__sublink {
+    color: #a2a2a2;
+    font-size: 1.0rem;
+}
+
+.menu__icon {
+    width: 2.5rem;
+    height: 2.5rem;
+    filter: brightness(0) saturate(100%) invert(100%) 
+    sepia(99%) saturate(0%) hue-rotate(40deg) brightness(101%) contrast(101%);
+}
+
+.menu__item-size {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    align-items: center;
+    justify-items: center;
+}
+
+h1.white-title-size {
+    font-size: 1.7rem;
+}
+
+.menu__button {
+    display: none;
+    left: 0;
+    top: 0;
+    position: fixed;
+    z-index: 1111;
+}
+
+.menu {
+    width: 100%;
+    height: 60px;
+    background-color: #333030;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.menu__item {
+    height: 100%;
+    gap: 15px;
+}
+
+.menu__logo {
+    height: 3.75rem;
+}
+
+.menu__profile {
+    height: 3.75rem;
+}
+
+.link-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu__main {
+    height: 3.75rem;
+}
+
+.menu__albums {
+    width: 100%;
+    height: calc(100% - 220px);
+    display: block;
+}
+
+ul.link-container {
+    width: 100%;
+    padding: 3%;
+    overflow: auto;
+    align-items: center;
+    gap: 5px;
+}
+
+.menu__link:hover {
+    text-shadow:0 0 1.25rem #ffffff;
+}   
+
+.menu__sublink:hover {
+    text-shadow:0 0 1.25rem #a2a2a2;
+}

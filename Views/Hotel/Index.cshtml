@@ -1,0 +1,55 @@
+@using ReservationApp.Entities
+@using ReservationApp.Models
+@model MainPageViewModel
+
+@using (Html.BeginForm())
+{
+	<section class="find-container">
+		<ul class="find__list__filters">
+			<li class="find__filter">
+				<h1>Фильтры</h1>
+			</li>
+			@for (var i = 0; i < Model.Tags.Count; i++)
+			{
+				<li class="find__filter">
+					@Html.CheckBoxFor(m => m.Tags[i].Checked, new { @class = "find__filter__check" })
+					<span class="find__filter__text">
+						@Model.Tags[i].Tag.Title
+					</span>
+				</li>
+			}
+		</ul>
+		<div class="find__list-container">
+			<div class="find__list__sort">
+				@Html.DropDownListFor(x => x.SelectedRegion, Model.Regions, new { style = "width:400px; height:100%; text-align:center" })
+				<input class="" type="submit" value="Применить">
+			</div>
+			<ul class="find__hotel__list">
+				@foreach (var hotel in Model.Hotels.Where(h => h.Hotel.IsPremium == true))
+				{
+					<a class="find__hotel find__hotel-premium" asp-action="Hotel" asp-route-id="@hotel.Hotel.Id">
+						<div class="find__hotel__img"></div>
+						<div class="find__hotel__info">
+							<span class="find__hotel__info__title">@hotel.Hotel.Title</span>
+							<span class="find__hotel__info__mark">@hotel.Grade</span>
+							<span class="find__hotel__info__region">@hotel.Hotel.Region.City, @hotel.Hotel.Region.Country</span>
+							<p class="find__hotel__info__description">@hotel.Hotel.Description</p>
+						</div>
+					</a>
+				}
+				@foreach (var hotel in Model.Hotels.Where(h => h.Hotel.IsPremium == false))
+				{
+					<a class="find__hotel find__hotel-common" asp-action="Hotel" asp-route-id="@hotel.Hotel.Id">
+						<div class="find__hotel__img"></div>
+						<div class="find__hotel__info">
+							<span class="find__hotel__info__title">@hotel.Hotel.Title</span>
+							<span class="find__hotel__info__mark">@hotel.Grade</span>
+							<span class="find__hotel__info__region">@hotel.Hotel.Region.City, @hotel.Hotel.Region.Country</span>
+							<p class="find__hotel__info__description">@hotel.Hotel.Description</p>
+						</div>
+					</a>
+				}
+			</ul>
+		</div>
+	</section>
+}

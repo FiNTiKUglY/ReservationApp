@@ -1,0 +1,15 @@
+﻿@using ReservationApp.Entities
+@model Service
+
+<section class="auth">
+    <h1 class="auth__title">Добавление услуги</h1>
+    <p class="error__title" id="error"></p>
+    <form method="post" asp-action="AddService" asp-controller="Manager">
+        <div class="auth__form">
+            <input placeholder="Название" class="auth__input" type="text" asp-for="Title" />
+            <input placeholder="Опиаине" class="auth__input" type="text" asp-for="Description" />
+            <input placeholder="Цена в день" class="auth__input" type="number" asp-for="CostPerDay" />
+            <button type="submit" class="auth__button">Добавить</button>
+        </div>
+    </form>
+</section>

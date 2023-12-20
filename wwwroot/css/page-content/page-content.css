@@ -1,0 +1,13 @@
+@import url(./find/find.css);
+@import url(./album/album.css);
+
+.page-content {
+    width: 100%;
+    height: calc(100% - 60px);
+    padding: 3% 10% 3% 10%;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    background-color: #ffffff;
+    overflow: auto;
+}

@@ -1,0 +1,57 @@
+﻿@using ReservationApp.Models
+@model HotelViewModel
+
+<section class="hotel-container">
+    <section class="hotel__image">
+    </section>
+    <section class="hotel__main-info">
+        <h2 class="hotel__main-info__title">@Model.Hotel.Title</h2>
+            <div class="hotel__main-info__tags">
+            @foreach (var tag in Model.Hotel.Tags)
+            {
+                <span class="hotel__main-info__tags__item">@tag.Title</span>
+            }
+            </div>
+        <p class="hotel__main-info__description">@Model.Hotel.Description</p>
+    </section>
+    <section class="hotel__services">
+        <div class="hotel__main-info__tags">
+            <h3 class="hotel__main-info__title">Предлагаемые услуги</h3>
+            @foreach (var service in Model.Hotel.Services)
+            {
+                <span class="hotel__main-info__tags__item">@service.Title</span>
+            }
+        </div>
+        <a class="hotel__order__button" asp-action="Order" asp-route-id="@Model.Hotel.Id">Забронировать</a>
+    </section>
+</section>
+<section class="review-container">
+    <h2>Отзывы</h2>
+    <form class="review" method="post">
+        <div class="review-header">
+            <h1 class="title">Оставьте отзыв</h1>
+            <div class="right-header">
+                <div class="rating">
+                    @Html.DropDownListFor(x => x.SelectedGrade, Model.Grades, new { style = "height:2rem; width:50px; text-align:center" })
+                </div>
+            <button style="width:120px" class="auth__button" type="submit">Ввести</button>
+            </div>
+        </div>
+        <textarea rows="6" class="review-text" asp-for="Text"></textarea>
+    </form>
+    @foreach (var review in Model.Hotel.Reviews)
+    {
+        <div class="review">
+            <div class="review-header">
+                <h1 class="title">@review.User.Surname @review.User.Name</h1>
+                <h1 class="rating">
+                    @review.Grade/5
+                </h1>
+            </div>
+            <p class="review-text">@review.Text</p>
+        </div>
+    }
+    <form class="make-review">
+    </form>
+</section>
+

@@ -1,0 +1,10 @@
+@import url(./__title/player__track__description__title.css);
+
+.player__track__description {
+    width: calc(50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}

@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Aboba</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/general.css">
+    <link rel="stylesheet" href="~/css/menu/nav-menu.css">
+    <link rel="stylesheet" href="~/css/order/order.css">
+    <link rel="stylesheet" href="~/css/page-content/page-content.css">
+    <link rel="stylesheet" href="~/css/icon/icon.css">
+    <link rel="stylesheet" href="~/css/auth/auth.css">
+    <link rel="stylesheet" href="~/css/hotel/hotel.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css" />
+</head>
+<body>
+    <nav class="menu" id="menu">
+        <a class="menu__link" asp-controller="Hotel" asp-action="Index">
+            <div class="menu__item menu__item-size menu__main">
+                <button class="button-icon">
+                    <img src="~/img/home.svg" class="menu__icon">
+                </button>
+                <p class="link-container">Главная</p>
+            </div>
+        </a>
+        @if (User.IsInRole("Manager"))
+        {
+            <div class="menu__item menu__item-size menu__profile">
+                <a class="menu__link" asp-controller="Manager" asp-action="Index">
+                    Менеджмент
+                </a>
+            </div>
+        }
+        @if (User.Identity is {IsAuthenticated: true})
+        {
+            <div class="menu__item menu__item-size menu__profile">
+                <a class="menu__icon" asp-controller="Profile" asp-action="Profile">
+                    <img src="~/img/profile.svg" class="menu__icon">
+                </a>
+                
+                <div class="link-container">
+                    <a class="menu__link" asp-controller="Profile" asp-action="Index">@User.Identity.Name</a>
+                    <a class="menu__sublink" asp-controller="Identity" asp-action="Logout">Выйти</a>
+                </div>
+            </div>
+        }
+        else
+        {
+            <div class="menu__item menu__item-size menu__profile">
+                <a class="menu__icon" asp-controller="Identity" asp-action="Login">
+                    <img src="~/img/profile.svg" class="menu__icon"> 
+                </a>
+                <div class="link-container">
+                    <a class="menu__link" asp-controller="Identity" asp-action="Login">Войти</a>
+                    <a class="menu__sublink" asp-controller="Identity" asp-action="Register">Регистрация</a>
+                </div>
+            </div>
+        }
+    </nav>
+    <main class="page-content">
+        @RenderBody()
+    </main>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

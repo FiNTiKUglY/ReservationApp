@@ -1,0 +1,117 @@
+.hotel-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.review-container {
+    margin-top: 50px;
+    padding: 0px 50px 0px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.review {
+    padding: 20px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.review-header {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.review-text {
+    white-space: initial;
+    text-align: justify;
+}
+
+.hotel__image {
+    width: 20%;
+    height: 100%;
+}
+
+.hotel__main-info {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.hotel__main-info__title {
+    width: 100%;
+    text-align: center;
+}
+
+.hotel__services {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.hotel__order__button {
+    height: 50px;
+    margin: 20px;
+    background-color: red;
+    border: 2px solid black;
+    border-radius: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.hotel__image__exact {
+    width: 100%;
+}
+
+.hotel__main-info__tags {
+    margin: 0px 50px 0px 50px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.hotel__main-info__description {
+    padding: 0px 50px 0px 50px;
+    white-space: initial;
+    text-align: justify;
+}
+
+.order-container {
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.order {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+.right-header {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+

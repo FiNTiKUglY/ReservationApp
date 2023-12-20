@@ -1,0 +1,11 @@
+.player__time {
+    color: #E55B5B;
+    font-size: 0.7rem;
+    margin-left: 0.25rem;
+}
+
+.player__time-current {
+    color: #E55B5B;
+    font-size: 0.7rem;
+    margin-right: 0.25rem;
+}

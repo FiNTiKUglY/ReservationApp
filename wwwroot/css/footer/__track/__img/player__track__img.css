@@ -1,0 +1,6 @@
+.player__track__img {
+    height: 60%;
+    aspect-ratio: 1 / 1;
+    border: 1px solid #000000;
+    margin: 2px;
+}

@@ -1,0 +1,11 @@
+.card__title {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    justify-content: center;
+    font-size: 1rem;
+}
+
+.card__subtitle {
+    font-size: 0.7rem;
+}

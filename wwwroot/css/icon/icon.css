@@ -1,0 +1,19 @@
+.icon {
+    width: 40px;
+    height: 40px; 
+}
+
+.icon-small {
+    width: 25px;
+    height: 25px; 
+}
+
+.icon-red {
+    filter: brightness(0) saturate(100%) invert(52%) 
+    sepia(14%) saturate(2364%) hue-rotate(314deg) brightness(91%) contrast(98%);
+}
+
+.icon-white {
+    filter: brightness(0) saturate(100%) invert(100%) 
+        sepia(99%) saturate(0%) hue-rotate(40deg) brightness(101%) contrast(101%);
+}

@@ -1,0 +1,6 @@
+.card__img {
+    width: 7rem;
+    height: 7rem;
+    border: 1px solid #000000;
+    margin: 0.4rem;
+}

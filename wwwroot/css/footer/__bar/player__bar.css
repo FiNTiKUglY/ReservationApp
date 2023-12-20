@@ -1,0 +1,19 @@
+.player__bar {
+    width: 100%;
+    height: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.player__bar-full {
+    width: 100%;
+    height: 4px;
+    background: #ffffff;
+}
+
+.player__bar-current {
+    width: 0px;
+    height: 4px;
+    background: #E55B5B;
+}

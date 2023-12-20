@@ -1,0 +1,18 @@
+@using ReservationApp.Models
+@model RegisterViewModel
+
+<section class="auth">
+    <h1 class="auth__title">Регистрация</h1>
+    <p class="error__title" id="error"></p>
+    <form method="post" asp-action="Register" asp-controller="Identity">
+        <div class="auth__form">
+            <input class="auth__input" type="text" placeholder="Логин" id="user_email" aria-required="true" asp-for="Email">
+            <input class="auth__input" type="password" placeholder="Пароль" id="user_password" aria-required="true" asp-for="Password">
+            <input class="auth__input" type="password" placeholder="Подтвердить пароль" id="user_password_confirm" aria-required="true" asp-for="ConfirmPassword">
+            <input class="auth__input" type="text" placeholder="Имя" id="" aria-required="true" asp-for="Name">
+            <input class="auth__input" type="text" placeholder="Фамилия" id="" aria-required="true" asp-for="Surname">
+
+            <button type="submit" class="auth__button">Зарегистрировать</button>
+        </div>
+    </form>
+</section>

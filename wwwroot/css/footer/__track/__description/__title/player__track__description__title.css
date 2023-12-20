@@ -1,0 +1,25 @@
+@media screen and (min-width: 600px) {
+    .player__track__description__title {
+        color: #ffffff;
+        font-size: 1rem;
+        text-overflow: ellipsis;
+    }
+    
+    .player__track__description__subtitle {
+        color: #ffffff;
+        font-size: 0.7rem;
+        text-overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .player__track__description__title {
+        color: #ffffff;
+        font-size: 0.7rem;
+    }
+    
+    .player__track__description__subtitle {
+        color: #ffffff;
+        font-size: 0.5rem;
+    }
+}

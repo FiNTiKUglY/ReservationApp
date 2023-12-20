@@ -1,0 +1,17 @@
+﻿@using ReservationApp.Entities
+@model Room
+
+<section class="auth">
+    <h1 class="auth__title">Добавление комнаты</h1>
+    <p class="error__title" id="error"></p>
+    <form method="post" asp-action="AddRoom" asp-controller="Manager">
+        <div class="auth__form">
+            <input placeholder="Номер" class="auth__input" type="text" asp-for="Number" />
+            <input placeholder="Описание" class="auth__input" type="text" asp-for="Description" />
+            <input placeholder="Кол-во взрослых" class="auth__input" type="number" asp-for="AdultAmount" />
+            <input placeholder="Кол-во детей" class="auth__input" type="number" asp-for="KidAmount" />
+            <input placeholder="Цена в день" class="auth__input" type="number" asp-for="CostPerDay" />
+            <button type="submit" class="auth__button">Добавить</button>
+        </div>
+    </form>
+</section>

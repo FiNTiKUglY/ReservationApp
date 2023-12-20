@@ -1,0 +1,10 @@
+@import url(./__buttons/player__buttons.css);
+
+.player__controls {
+    width: 80%;
+    display: flex;
+    gap: 0.25rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

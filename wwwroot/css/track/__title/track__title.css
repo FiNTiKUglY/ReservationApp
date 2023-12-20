@@ -1,0 +1,21 @@
+.track__title {
+    height: auto;
+    text-align: center;
+    justify-content: center;
+    font-size: 1rem;
+}
+
+.track__subtitle {
+    font-size: 0.7rem;
+}
+
+.track__title-mini {
+    height: auto;
+    text-align: center;
+    justify-content: center;
+    font-size: 0.8rem;
+}
+
+.track__subtitle-mini {
+    font-size: 0.6rem;
+}

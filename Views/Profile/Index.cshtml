@@ -1,0 +1,16 @@
+﻿@using ReservationApp.Models
+@model ProfileViewModel
+
+<section class="review-container">
+    <h2>Заказы</h2>
+    <div class="order-container">
+        @foreach (var order in Model.Orders)
+        {
+            <div class="order">
+                <h3 class="title">@order.HotelTitle</h3>
+                <h3>@order.OrderDates</h3>
+                <h3>@order.Cost$</h3>
+            </div>
+        }
+    </div>
+</section>
